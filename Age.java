@@ -21,7 +21,7 @@ public static void main(String args[])
         Age ob=new Age();
 	boolean z=ob.compare(x,y);
 	
-	if(z==true)
+	if(z)
 	System.out.println("B is younger");
 	else
 	System.out.println("A is younger");
